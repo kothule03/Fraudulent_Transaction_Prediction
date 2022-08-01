@@ -2,14 +2,14 @@
 """
 Created on Fri Jul 29 18:57:06 2022
 
-@author: rakes
+@author: this
 """
 
 import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/rakes/NEW DEPLOYMENT/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/this/Downloads/trained_model.sav', 'rb'))
 
 
 def fraud_prediction(input_data2):
